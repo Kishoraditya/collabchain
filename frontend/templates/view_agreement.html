@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Agreement</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>View Agreement</h1>
+    <div class="agreement-details">
+        <p><strong>Agreement ID:</strong> {{ agreement[0] }}</p>
+        <p><strong>Proposer:</strong> {{ agreement[1] }}</p>
+        <p><strong>Acceptor:</strong> {{ agreement[2] }}</p>
+        <p><strong>Terms:</strong> {{ agreement[3] }}</p>
+        <p><strong>Accepted:</strong> {{ 'Yes' if agreement[4] else 'No' }}</p>
+        <p><strong>Timestamp:</strong> {{ agreement[5] }}</p>
+    </div>
+</body>
+</html>

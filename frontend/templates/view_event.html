@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Event</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>View Event</h1>
+    <div class="event-details">
+        <p><strong>Event ID:</strong> {{ event[0] }}</p>
+        <p><strong>Creator:</strong> {{ event[1] }}</p>
+        <p><strong>Name:</strong> {{ event[2] }}</p>
+        <p><strong>Description:</strong> {{ event[3] }}</p>
+        <p><strong>Timestamp:</strong> {{ event[4] }}</p>
+    </div>
+</body>
+</html>

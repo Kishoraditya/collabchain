@@ -1,1 +1,9 @@
 /web3o
+test.txt
+*.pyc
+__pycache__/
+.env
+node_modules/
+*.log
+*.sqlite3
+.DS_Store

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Agreement</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Create Agreement</h1>
+    <form method="POST">
+        <label for="acceptor">Acceptor Address:</label>
+        <input type="text" id="acceptor" name="acceptor" required>
+        <label for="terms">Terms:</label>
+        <input type="text" id="terms" name="terms" required>
+        <button type="submit">Propose Agreement</button>
+    </form>
+</body>
+</html>

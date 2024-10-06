@@ -1,0 +1,39 @@
+[
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_name",
+                "type": "string"
+            },
+            {
+                "name": "_description",
+                "type": "string"
+            }
+        ],
+        "name": "createEvent",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_id",
+                "type": "uint256"
+            }
+        ],
+        "name": "getEvent",
+        "outputs": [
+            {
+                "name": "",
+                "type": "tuple"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    }
+]

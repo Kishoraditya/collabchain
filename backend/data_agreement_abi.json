@@ -1,0 +1,53 @@
+[
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_acceptor",
+                "type": "address"
+            },
+            {
+                "name": "_terms",
+                "type": "string"
+            }
+        ],
+        "name": "proposeAgreement",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_id",
+                "type": "uint256"
+            }
+        ],
+        "name": "acceptAgreement",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_id",
+                "type": "uint256"
+            }
+        ],
+        "name": "getAgreement",
+        "outputs": [
+            {
+                "name": "",
+                "type": "tuple"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
